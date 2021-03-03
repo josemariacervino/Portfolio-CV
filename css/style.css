@@ -116,17 +116,17 @@ p{
     bottom: var(--header-height);
     width: 100%;
     background-color: var(--second-color);
-   
+    
     display: flex;
     flex-direction: column;
     
     opacity: 0;
-    pointer-events: none; /*Interactividad del elemento*/
-    transition: opacity .5 ease ;
-    -webkit-transition: opacity .5 ease ;
-    -moz-transition: opacity .5 ease ;
-    -ms-transition: opacity .5 ease ;
-    -o-transition: opacity .5 ease ;
+    pointer-events: none;  /*Interactividaddelelemento*/
+    transition: opacity .5s ease ;
+    -webkit-transition: opacity .5s ease ;
+    -moz-transition: opacity .5s ease ;
+    -ms-transition: opacity .5s ease ;
+    -o-transition: opacity .5s ease ;
 }
 
 .menu.is-active{
