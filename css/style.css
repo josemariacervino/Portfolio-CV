@@ -45,11 +45,11 @@ body{
 
 a{
     color: var(--link-color);
-    transition: all 0.5s ease-out;
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    -ms-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
+    transition: all 0.35s ease-out;
+    -webkit-transition: all 0.35s ease-out;
+    -moz-transition: all 0.35s ease-out;
+    -ms-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
 }
 
 a:hover{
@@ -114,8 +114,40 @@ p{
     position: fixed;
     left: 0;
     bottom: var(--header-height);
+    width: 100%;
+    background-color: var(--second-color);
+   
+    display: flex;
+    flex-direction: column;
+    
+    opacity: 0;
+    pointer-events: none; /*Interactividad del elemento*/
+    transition: opacity .5 ease ;
+    -webkit-transition: opacity .5 ease ;
+    -moz-transition: opacity .5 ease ;
+    -ms-transition: opacity .5 ease ;
+    -o-transition: opacity .5 ease ;
 }
 
+.menu.is-active{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.menu a{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: var(--first-color);
+}
+
+.menu a:hover{
+    color:var(--white-color);
+    background-color: var(--first-color);
+
+}
 
 /***************  Utilities ******************/
 
