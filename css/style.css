@@ -97,6 +97,33 @@ p{
 
 /*************** Components  ******************/
 
+/*********** Hero Img  ***********/
+
+.hero-img{
+    background-image: var(--hero-img);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: var(--hero-attachment);
+}
+
+.hero-img-opacity{
+    width: 100%;
+    min-height: 100vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-color: var(--hero-opacity-color);
+}
+
+.hero-img-title{
+    font-size: 7vw;
+    color: var(--hero-title-color);
+}
+
 /*********** Menu  ***********/
 
 .menu-btn{
@@ -177,6 +204,23 @@ p{
 
 
 /***************  Utilities ******************/
+
+.btn{
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+
+    padding: 1rem;
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--first-color);
+}
 
 .box-shadow-1{ /*eje x eje y blur color*/
     box-shadow: .25rem .25rem 1rem rgba(0,0,0,0.25);
