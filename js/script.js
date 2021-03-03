@@ -1,6 +1,6 @@
 /*************** Menu  *************/
 
-((d)=>{
+((d) => {
     const $btnMenu = d.querySelector(".menu-btn"),
         $menu = d.querySelector(".menu");
 
