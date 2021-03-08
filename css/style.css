@@ -194,6 +194,7 @@ p {
 
 .hero-img-title {
     font-size: 7vw;
+    margin-bottom: 1rem;
     color: var(--hero-title-color);
 }
 
