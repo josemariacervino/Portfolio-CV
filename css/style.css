@@ -1,12 +1,10 @@
 /*************** Custom Properties ******************/
 
 :root {
-    --first-color: #d90062;
-    --firs-alpha-color: rgba(217, 0, 98, 0.75);
-    --second-color: #14192d;
-    --second-alphap-color: rgba(20, 25, 45, 0.75);
-    --third-color: #501464;
-    --third-alpha-color: rgba(80, 20, 100, 0.75);
+    --first-color: #303b68;
+    --first-alpha-color: rgba( 25, 38, 88, .85);
+    --second-color: #dcdde0;
+    --third-color: #333;
     --white-color: #fff;
     --gray-light-color: #f3f3f3;
     --gray-color: #ccc;
@@ -480,7 +478,7 @@ progress::-moz-progress-bar {
     width: 100%;
     height: 100%;
     padding: 1rem;
-    background-color: var(--firs-alpha-color);
+    background-color: var(--first-alpha-color);
     color: var(--white-color);
     opacity: 0;
     pointer-events: none;
