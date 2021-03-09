@@ -199,18 +199,21 @@ p {
 @media only screen and (min-width: 480px) {
     .hero-img-opacity {
         height: 500px;
+        object-fit: cover;
     }
 }
 
 @media only screen and (min-width: 768px) {
     .hero-img-opacity {
         height: 600px;
+        object-fit: cover;
     }
 }
 
 @media only screen and (min-width: 1024px) {
     .hero-img-opacity {
         height: 700px;
+        object-fit: cover;
     }
 }
 
