@@ -173,9 +173,7 @@ p {
 /*********** Hero Img  ***********/
 
 .hero-img {
-    background-image: var(--hero-img);
-    background-repeat: no-repeat;
-    background-position: center;
+    background: var(--hero-img);
     background-size: cover;
     background-attachment: var(--hero-attachment);
 }
