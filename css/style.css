@@ -176,6 +176,9 @@ p {
     background: var(--hero-img);
     background-repeat: no-repeat;
     background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-attachment: var(--hero-attachment);
 }
