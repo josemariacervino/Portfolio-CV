@@ -180,7 +180,7 @@ p {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
 .hero-img-opacity {
