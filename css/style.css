@@ -175,8 +175,11 @@ p {
 .hero-img {
     background: var(--hero-img);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-attachment: var(--hero-attachment);
 }
 
@@ -194,19 +197,6 @@ p {
     font-size: 7vw;
     margin-bottom: 1rem;
     color: var(--hero-title-color);
-}
-
-@media only screen and (min-width: 1024px) {
-    .hero-img {
-        background: var(--hero-img);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-attachment: var(--hero-attachment);
-    }
 }
 
 
