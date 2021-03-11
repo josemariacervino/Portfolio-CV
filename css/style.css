@@ -173,14 +173,14 @@ p {
 /*********** Hero Img  ***********/
 
 .hero-img {
-    background: var(--hero-img-small);
+    background: var(--hero-img);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-attachment: var(--hero-attachment);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: scroll;
 }
 
 .hero-img-opacity {
@@ -197,19 +197,6 @@ p {
     font-size: 7vw;
     margin-bottom: 1rem;
     color: var(--hero-title-color);
-}
-
-@media only screen and (min-width: 1024px) {
-    .hero-img {
-        background: var(--hero-img);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-attachment: var(--hero-attachment);
-    }
 }
 
 
